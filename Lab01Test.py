@@ -9,7 +9,7 @@ from myy505TesterLib import *
 ################################################################
 # CHANGE THIS TO YOUR MATRIC NUMBER
 ################################################################
-matricNumber = 0
+matricNumber = 5152
 
 # Modifications/additions to the data labels of the program
 newLabels = {
@@ -78,7 +78,7 @@ filename = 'lab01.s'
 #print("Data labels:")  # The address (hex, decimal) for each data label
 #for label in labelMap.keys():
 #    print("%s 0x%x (%d)" %(label, labelMap[label], labelMap[label]))
-#print("Integer registers at program exit") 
+#print("Integer registers at program exit")
 #for reg in coreDumpData['registers']['integer'].keys():
 #    print("x%2s 0x%x (%d)" %(reg, coreDumpData['registers']['integer'][reg], coreDumpData['registers']['integer'][reg]))
 

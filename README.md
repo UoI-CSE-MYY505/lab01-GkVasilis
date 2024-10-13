@@ -2,7 +2,7 @@
 
 ## UoI-CSE-MYY505 lab01
 
-## First-Name Last-Name
+## VASILEIOS GKELIS
 
 **TODO - Update your name in this readme. Leave 1 space after the ## to preserve the text formating (markdown)**
 
@@ -11,14 +11,14 @@
 ## Problem statement:
 Introduction to Risc-V assembly using Ripes.
 Automated testing using python myy505Utils functions
- 
+
 ## Files to work on
-* `lab01.s` 
-* `Lab01Test.py` 
+* `lab01.s`
+* `Lab01Test.py`
 * `README.md` to add your name<br/>
-Please **DO NOT MODIFY** any other files. 
-      
-## Running 
+Please **DO NOT MODIFY** any other files.
+
+## Running
 * To run the program interactively, start Ripes and load lab01.s
 * To run the test execute the python script Lab01Test.py
 
