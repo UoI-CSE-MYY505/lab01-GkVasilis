@@ -55,8 +55,8 @@ prog:   # Labels in code are used for control flow: if/then/else, loops, etc.
         #  test.
         # Labels do not take up space in memory. They are only used by the assembler
 
-        li        s0, 5152         # Get value 100 into register s0. li - load immediate
-        
+        lw         s0, 0x0(a0)     # Get value 100 into register s0. li - load immediate
+    
         lw         s1, 0(a1)       # s1 gets the value of var1. a1 has the address of var1
         add        s1, s1,   s0    # s1 = var1 + s0
         sw         s1, 4(a0)       # matricplus1 = var1 + s0
